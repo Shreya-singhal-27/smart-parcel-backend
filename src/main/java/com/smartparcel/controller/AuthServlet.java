@@ -166,7 +166,4 @@ public class AuthServlet extends HttpServlet {
         response.setHeader("X-Frame-Options", "DENY");
         response.setHeader("X-XSS-Protection", "1; mode=block");
     }
-private boolean make(){
-    return true;
-}
 }
